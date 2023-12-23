@@ -32,7 +32,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .header-menu-link:hover,
@@ -54,29 +54,30 @@ ul {
 
 /**-------------HEADER-1-------------*/
 
-.section-1 {
+.section-one {
     background:#2E2F42;
 }
 
-.header-1 {
+.header-one {
     color:#FFF;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
-.header-1-btn {
+.header-one-btn {
+    font-family: "Roboto", sans-serif;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.04em;
     background: #4D5AE5;
 }
 
-.header-1-btn:hover {
+.header-one-btn:hover {
     background: #404BBF;
 }
 
@@ -84,14 +85,14 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .header-features-info {
     color:  #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 /**---------------------OUR TEAM----------*/
@@ -143,6 +144,14 @@ letter-spacing: 0.02em;
 
 .footer {
 background: #2E2F42;
+}
+
+.footer-logo {
+color: #4d5ae5;
+font-family: "Raleway", sans-serif;
+line-height: 1.17;
+letter-spacing: 0.02em;
+text-transform: uppercase;
 }
 
 .footer-info {
